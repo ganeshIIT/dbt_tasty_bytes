@@ -3,8 +3,8 @@ This repository consists of a [dbt](https://www.getdbt.com/) project that transf
 
 ### Sources:
 _All source data is loaded to the `FROSTBYTE_TASTY_BYTES` database._
-- `tech_store` - An internal company database
-- `payment_app` - A third party payment processing application
+- `RAW_POS` - Lookups and transactions
+- `RAW_CUSTOMER` - Customer data
 
 ### Target Environments:
 _All transformed data models are deployed to the `tasty_bytes` database._
