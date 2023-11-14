@@ -1,4 +1,4 @@
-## dbt Training Project
+## dbt tasty bytes Project
 This repository consists of a [dbt](https://www.getdbt.com/) project that transforms raw data sources into clear, formatted models for Analytics.
 
 ### Sources:
