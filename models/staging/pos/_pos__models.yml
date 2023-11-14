@@ -2,3 +2,9 @@ version: 2
 
 models:
   - name: stg_pos__country
+  - name: stg_pos__franchise
+  - name: stg_pos__location
+  - name: stg_pos__menu
+  - name: stg_pos__order_detail
+  - name: stg_pos__order_header
+  - name: stg_pos__truck
