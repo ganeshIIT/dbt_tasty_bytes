@@ -9,13 +9,13 @@ locations as (
 final as (
 
     select
-        LOCATION_ID::NUMBER(19,0),
-        PLACEKEY::VARCHAR(16777216),
-        LOCATION::VARCHAR(16777216),
-        CITY::VARCHAR(16777216),
-        REGION::VARCHAR(16777216),
-        ISO_COUNTRY_CODE::VARCHAR(16777216),
-        COUNTRY::VARCHAR(16777216)
+        LOCATION_ID,
+        PLACEKEY,
+        LOCATION,
+        CITY,
+        REGION,
+        ISO_COUNTRY_CODE,
+        COUNTRY
     from locations
 
 )
